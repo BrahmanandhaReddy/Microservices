@@ -1,0 +1,1097 @@
+2020-03-17 15:06:07.674  INFO [orderservice,,,] 9768 --- [restartedMain] com.srit.app.OrederServiceApplication    : No active profile set, falling back to default profiles: default
+2020-03-17 15:06:09.750  INFO [orderservice,,,] 9768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-17 15:06:09.821  INFO [orderservice,,,] 9768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 1 JPA repository interfaces.
+2020-03-17 15:06:10.813  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=281815ff-0fbd-3bf5-bcda-caee3f581cdf
+2020-03-17 15:06:11.162  INFO [orderservice,,,] 9768 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-03-17 15:06:11.177  INFO [orderservice,,,] 9768 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-03-17 15:06:11.187  INFO [orderservice,,,] 9768 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-03-17 15:06:11.527  INFO [orderservice,,,] 9768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-17 15:06:11.562  INFO [orderservice,,,] 9768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-17 15:06:11.566  INFO [orderservice,,,] 9768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-17 15:06:11.602  INFO [orderservice,,,] 9768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-17 15:06:11.630  INFO [orderservice,,,] 9768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-17 15:06:11.656  INFO [orderservice,,,] 9768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-17 15:06:11.669  INFO [orderservice,,,] 9768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-17 15:06:11.717  INFO [orderservice,,,] 9768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.messaging.TraceMessagingAutoConfiguration$SleuthKafkaConfiguration' of type [org.springframework.cloud.sleuth.instrument.messaging.TraceMessagingAutoConfiguration$SleuthKafkaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-17 15:06:12.488  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2222 (http)
+2020-03-17 15:06:12.533  INFO [orderservice,,,] 9768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-17 15:06:12.533  INFO [orderservice,,,] 9768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-03-17 15:06:12.793  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-17 15:06:12.793  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5054 ms
+2020-03-17 15:06:13.718  INFO [orderservice,,,] 9768 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-17 15:06:13.805  INFO [orderservice,,,] 9768 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2020-03-17 15:06:14.044  INFO [orderservice,,,] 9768 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-17 15:06:14.156  INFO [orderservice,,,] 9768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-17 15:06:14.518  INFO [orderservice,,,] 9768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-17 15:06:14.823  INFO [orderservice,,,] 9768 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-17 15:06:31.422  INFO [orderservice,,,] 9768 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-17 15:06:31.463  INFO [orderservice,,,] 9768 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-17 15:06:31.529  WARN [orderservice,,,] 9768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-03-17 15:06:32.458  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2020-03-17 15:06:32.459  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2020-03-17 15:06:32.514  WARN [orderservice,,,] 9768 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-03-17 15:06:32.514  INFO [orderservice,,,] 9768 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-03-17 15:06:32.530  WARN [orderservice,,,] 9768 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-03-17 15:06:32.530  INFO [orderservice,,,] 9768 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-03-17 15:06:32.605  WARN [orderservice,,,] 9768 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-17 15:06:33.836  WARN [orderservice,,,] 9768 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-03-17 15:06:34.401  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-03-17 15:06:34.472  INFO [orderservice,,,] 9768 --- [restartedMain] c.f.c.c.BeanFactoryAwareFunctionRegistry : Looking up function 'null' with acceptedOutputTypes: []
+2020-03-17 15:06:34.696  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2020-03-17 15:06:34.757  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel output
+2020-03-17 15:06:34.789  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel input
+2020-03-17 15:06:34.795  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2020-03-17 15:06:34.815  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2020-03-17 15:06:34.844  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.input' has 1 subscriber(s).
+2020-03-17 15:06:34.848  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-03-17 15:06:34.848  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2020-03-17 15:06:34.849  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2020-03-17 15:06:35.371  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.c.s.b.k.p.KafkaTopicProvisioner      : Using kafka topic for outbound: myTopic
+2020-03-17 15:06:35.373  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = default
+	client.id = 
+	connections.max.idle.ms = 300000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 120000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2020-03-17 15:06:35.431  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2020-03-17 15:06:35.431  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2020-03-17 15:06:35.431  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1584437795429
+2020-03-17 15:06:35.651  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2020-03-17 15:06:35.756  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2020-03-17 15:06:35.757  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2020-03-17 15:06:35.757  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1584437795756
+2020-03-17 15:06:35.765  INFO [orderservice,,,] 9768 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Cluster ID: 0gNRZDvjTSWbqIcZ-_LHjw
+2020-03-17 15:06:35.766  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2020-03-17 15:06:35.794  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.output' has 1 subscriber(s).
+2020-03-17 15:06:35.804  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-03-17 15:06:36.155  INFO [orderservice,,,] 9768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-03-17 15:06:36.948  INFO [orderservice,,,] 9768 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-03-17 15:06:36.948  INFO [orderservice,,,] 9768 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-03-17 15:06:37.381  INFO [orderservice,,,] 9768 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-03-17 15:06:37.381  INFO [orderservice,,,] 9768 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-03-17 15:06:37.736  INFO [orderservice,,,] 9768 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-17 15:06:37.857  INFO [orderservice,,,] 9768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-03-17 15:06:37.857  INFO [orderservice,,,] 9768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-03-17 15:06:37.857  INFO [orderservice,,,] 9768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-03-17 15:06:37.857  INFO [orderservice,,,] 9768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-03-17 15:06:37.857  INFO [orderservice,,,] 9768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-03-17 15:06:37.857  INFO [orderservice,,,] 9768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-03-17 15:06:37.857  INFO [orderservice,,,] 9768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-03-17 15:06:38.184  INFO [orderservice,,,] 9768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-03-17 15:06:38.186  INFO [orderservice,,,] 9768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-03-17 15:06:38.188  INFO [orderservice,,,] 9768 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-03-17 15:06:38.206  INFO [orderservice,,,] 9768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1584437798190 with initial instances count: 2
+2020-03-17 15:06:38.214  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDERSERVICE with eureka with status UP
+2020-03-17 15:06:38.215  INFO [orderservice,,,] 9768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1584437798215, current=UP, previous=STARTING]
+2020-03-17 15:06:38.216  INFO [orderservice,,,] 9768 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICE/ULSRITDESKTOP09.sritindia.com:orderservice:2222: registering service...
+2020-03-17 15:06:38.243  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = default
+	client.id = 
+	connections.max.idle.ms = 300000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 120000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2020-03-17 15:06:38.245  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2020-03-17 15:06:38.245  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2020-03-17 15:06:38.245  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1584437798245
+2020-03-17 15:06:38.377  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 100
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2020-03-17 15:06:38.444  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2020-03-17 15:06:38.444  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2020-03-17 15:06:38.444  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1584437798444
+2020-03-17 15:06:38.485  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'myTopic.anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59.errors' has 1 subscriber(s).
+2020-03-17 15:06:38.485  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'myTopic.anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59.errors' has 0 subscriber(s).
+2020-03-17 15:06:38.485  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'myTopic.anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59.errors' has 1 subscriber(s).
+2020-03-17 15:06:38.485  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'myTopic.anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59.errors' has 2 subscriber(s).
+2020-03-17 15:06:38.511  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 100
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2020-03-17 15:06:38.514  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2020-03-17 15:06:38.514  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2020-03-17 15:06:38.514  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1584437798514
+2020-03-17 15:06:38.515  INFO [orderservice,,,] 9768 --- [restartedMain] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-2, groupId=anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59] Subscribed to topic(s): myTopic
+2020-03-17 15:06:38.516  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-03-17 15:06:38.547  INFO [orderservice,,,] 9768 --- [restartedMain] s.i.k.i.KafkaMessageDrivenChannelAdapter : started org.springframework.integration.kafka.inbound.KafkaMessageDrivenChannelAdapter@77a0e3aa
+2020-03-17 15:06:38.598  INFO [orderservice,,,] 9768 --- [KafkaConsumerDestination{consumerDestinationName='myTopic', partitions=1, dlqName='null'}.container-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-2, groupId=anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59] Cluster ID: 0gNRZDvjTSWbqIcZ-_LHjw
+2020-03-17 15:06:38.600  INFO [orderservice,,,] 9768 --- [KafkaConsumerDestination{consumerDestinationName='myTopic', partitions=1, dlqName='null'}.container-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59] Discovered group coordinator ULSRITDESKTOP09.sritindia.com:9092 (id: 2147483647 rack: null)
+2020-03-17 15:06:38.606  INFO [orderservice,,,] 9768 --- [KafkaConsumerDestination{consumerDestinationName='myTopic', partitions=1, dlqName='null'}.container-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-2, groupId=anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59] Revoking previously assigned partitions []
+2020-03-17 15:06:38.606  INFO [orderservice,,,] 9768 --- [KafkaConsumerDestination{consumerDestinationName='myTopic', partitions=1, dlqName='null'}.container-0-C-1] o.s.c.s.b.k.KafkaMessageChannelBinder$1  : anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59: partitions revoked: []
+2020-03-17 15:06:38.606  INFO [orderservice,,,] 9768 --- [KafkaConsumerDestination{consumerDestinationName='myTopic', partitions=1, dlqName='null'}.container-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59] (Re-)joining group
+2020-03-17 15:06:38.732  INFO [orderservice,,,] 9768 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICE/ULSRITDESKTOP09.sritindia.com:orderservice:2222 - registration status: 204
+2020-03-17 15:06:38.764  INFO [orderservice,,,] 9768 --- [KafkaConsumerDestination{consumerDestinationName='myTopic', partitions=1, dlqName='null'}.container-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59] (Re-)joining group
+2020-03-17 15:06:38.774  INFO [orderservice,,,] 9768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2222 (http) with context path ''
+2020-03-17 15:06:38.774  INFO [orderservice,,,] 9768 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 2222
+2020-03-17 15:06:38.915  INFO [orderservice,,,] 9768 --- [restartedMain] com.srit.app.OrederServiceApplication    : Started OrederServiceApplication in 32.823 seconds (JVM running for 34.931)
+2020-03-17 15:06:38.929  INFO [orderservice,,,] 9768 --- [KafkaConsumerDestination{consumerDestinationName='myTopic', partitions=1, dlqName='null'}.container-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59] Successfully joined group with generation 1
+2020-03-17 15:06:38.933  INFO [orderservice,,,] 9768 --- [KafkaConsumerDestination{consumerDestinationName='myTopic', partitions=1, dlqName='null'}.container-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-2, groupId=anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59] Setting newly assigned partitions: myTopic-0
+2020-03-17 15:06:38.938  INFO [orderservice,,,] 9768 --- [KafkaConsumerDestination{consumerDestinationName='myTopic', partitions=1, dlqName='null'}.container-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-2, groupId=anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59] Found no committed offset for partition myTopic-0
+2020-03-17 15:06:38.964  INFO [orderservice,,,] 9768 --- [KafkaConsumerDestination{consumerDestinationName='myTopic', partitions=1, dlqName='null'}.container-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-2, groupId=anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59] Resetting offset for partition myTopic-0 to offset 2.
+2020-03-17 15:06:38.998  INFO [orderservice,,,] 9768 --- [KafkaConsumerDestination{consumerDestinationName='myTopic', partitions=1, dlqName='null'}.container-0-C-1] o.s.c.s.b.k.KafkaMessageChannelBinder$1  : anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59: partitions assigned: [myTopic-0]
+2020-03-17 15:09:45.514  INFO [orderservice,,,] 9768 --- [http-nio-2222-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-17 15:09:45.515  INFO [orderservice,,,] 9768 --- [http-nio-2222-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-17 15:09:45.531  INFO [orderservice,,,] 9768 --- [http-nio-2222-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-03-17 15:09:46.467  INFO [orderservice,79069d889d1907cd,4079b201f91fedae,true] 9768 --- [Order-Thread2] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2020-03-17 15:09:46.470  INFO [orderservice,79069d889d1907cd,4079b201f91fedae,true] 9768 --- [Order-Thread2] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2020-03-17 15:09:46.470  INFO [orderservice,79069d889d1907cd,4079b201f91fedae,true] 9768 --- [Order-Thread2] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2020-03-17 15:09:46.470  INFO [orderservice,79069d889d1907cd,4079b201f91fedae,true] 9768 --- [Order-Thread2] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1584437986470
+2020-03-17 15:09:46.474  INFO [orderservice,,,] 9768 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-2] Cluster ID: 0gNRZDvjTSWbqIcZ-_LHjw
+2020-03-17 15:09:46.897  WARN [orderservice,79069d889d1907cd,dd58930f1423898b,true] 9768 --- [Order-Thread2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1364, SQLState: HY000
+2020-03-17 15:09:46.897 ERROR [orderservice,79069d889d1907cd,dd58930f1423898b,true] 9768 --- [Order-Thread2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Field 'orderid' doesn't have a default value
+2020-03-17 15:11:37.901  INFO [orderservice,,,] 9768 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-17 15:16:37.943  INFO [orderservice,,,] 9768 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-17 15:21:37.985  INFO [orderservice,,,] 9768 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-17 15:26:38.028  INFO [orderservice,,,] 9768 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-17 15:31:38.070  INFO [orderservice,,,] 9768 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-17 15:36:38.112  INFO [orderservice,,,] 9768 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-17 15:41:38.154  INFO [orderservice,,,] 9768 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-17 15:46:38.196  INFO [orderservice,,,] 9768 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-17 15:51:38.238  INFO [orderservice,,,] 9768 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-17 15:56:38.279  INFO [orderservice,,,] 9768 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-17 16:00:41.274 ERROR [orderservice,,,] 9768 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:864) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1423) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_65]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_65]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_65]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_65]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.10.jar:4.5.10]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 26 common frames omitted
+
+2020-03-17 16:00:41.275  WARN [orderservice,,,] 9768 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-03-17 16:00:41.352 ERROR [orderservice,,,] 9768 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:170) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1103) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:985) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1497) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1464) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_65]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_65]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_65]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_65]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.10.jar:4.5.10]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 29 common frames omitted
+
+2020-03-17 16:00:41.353  WARN [orderservice,,,] 9768 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-03-17 16:00:43.299 ERROR [orderservice,,,] 9768 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:864) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1423) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_65]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_65]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_65]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_65]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.10.jar:4.5.10]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 27 common frames omitted
+
+2020-03-17 16:00:43.301  WARN [orderservice,,,] 9768 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-03-17 16:00:43.303 ERROR [orderservice,,,] 9768 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICE/ULSRITDESKTOP09.sritindia.com:orderservice:2222 - was unable to send heartbeat!
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:864) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1423) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_65]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_65]
+
+2020-03-17 16:00:43.367 ERROR [orderservice,,,] 9768 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:170) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1103) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:985) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1497) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1464) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_65]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_65]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_65]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_65]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.10.jar:4.5.10]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 30 common frames omitted
+
+2020-03-17 16:00:43.368  WARN [orderservice,,,] 9768 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-03-17 16:00:43.369 ERROR [orderservice,,,] 9768 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICE/ULSRITDESKTOP09.sritindia.com:orderservice:2222 - was unable to refresh its cache! status = Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1103) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:985) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1497) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1464) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_65]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_65]
+
+2020-03-17 16:00:54.965  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-17 16:00:54.966  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORDERSERVICE with eureka with status DOWN
+2020-03-17 16:00:54.967  WARN [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1584441054967, current=DOWN, previous=UP]
+2020-03-17 16:00:54.967  INFO [orderservice,,,] 9768 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICE/ULSRITDESKTOP09.sritindia.com:orderservice:2222: registering service...
+2020-03-17 16:00:54.981  INFO [orderservice,,,] 9768 --- [KafkaConsumerDestination{consumerDestinationName='myTopic', partitions=1, dlqName='null'}.container-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59] Member consumer-2-aafb05ef-0335-460a-8db4-176eeb1c6738 sending LeaveGroup request to coordinator ULSRITDESKTOP09.sritindia.com:9092 (id: 2147483647 rack: null)
+2020-03-17 16:00:54.984  INFO [orderservice,,,] 9768 --- [KafkaConsumerDestination{consumerDestinationName='myTopic', partitions=1, dlqName='null'}.container-0-C-1] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-2, groupId=anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59] Unsubscribed all topics or patterns and assigned partitions
+2020-03-17 16:00:54.984  INFO [orderservice,,,] 9768 --- [KafkaConsumerDestination{consumerDestinationName='myTopic', partitions=1, dlqName='null'}.container-0-C-1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-03-17 16:00:55.008  INFO [orderservice,,,] 9768 --- [KafkaConsumerDestination{consumerDestinationName='myTopic', partitions=1, dlqName='null'}.container-0-C-1] essageListenerContainer$ListenerConsumer : anonymous.0a95ba47-6a81-44c8-9f37-633a11964c59: Consumer stopped
+2020-03-17 16:00:55.011  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] s.i.k.i.KafkaMessageDrivenChannelAdapter : stopped org.springframework.integration.kafka.inbound.KafkaMessageDrivenChannelAdapter@77a0e3aa
+2020-03-17 16:00:55.013  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-03-17 16:00:55.014  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 0 subscriber(s).
+2020-03-17 16:00:55.014  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2020-03-17 16:00:55.016  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-03-17 16:00:55.024  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'taskExecutor'
+2020-03-17 16:00:55.026  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-17 16:00:55.679  WARN [orderservice,,,] 9768 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@15f986d4}] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2020-03-17 16:00:55.681  WARN [orderservice,,,] 9768 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@15f986d4}] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 0 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9412/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9412/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:751) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228) ~[spring-cloud-sleuth-zipkin-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:644) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129) ~[spring-cloud-sleuth-zipkin-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142) ~[spring-cloud-sleuth-zipkin-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132) ~[spring-cloud-sleuth-zipkin-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at zipkin2.Call$Base.execute(Call.java:380) ~[zipkin-2.19.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:285) ~[zipkin-reporter-2.11.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:354) [zipkin-reporter-2.11.0.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_65]
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_65]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_65]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_65]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_65]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_65]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_65]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_65]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_65]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_65]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_65]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_65]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_65]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:742) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 9 common frames omitted
+
+2020-03-17 16:00:55.684  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'errorChannel'
+2020-03-17 16:00:55.684  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'output'
+2020-03-17 16:00:55.685  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'input'
+2020-03-17 16:00:55.685  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: nullChannel
+2020-03-17 16:00:55.685  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean '_org.springframework.integration.errorLogger.handler' for component '_org.springframework.integration.errorLogger'
+2020-03-17 16:00:55.687  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-03-17 16:00:56.982 ERROR [orderservice,,,] 9768 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_65]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_65]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_65]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_65]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.10.jar:4.5.10]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 30 common frames omitted
+
+2020-03-17 16:00:56.983  WARN [orderservice,,,] 9768 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-03-17 16:00:56.984  WARN [orderservice,,,] 9768 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICE/ULSRITDESKTOP09.sritindia.com:orderservice:2222 - registration failed Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_65]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_65]
+
+2020-03-17 16:00:56.985  WARN [orderservice,,,] 9768 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_65]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_65]
+
+2020-03-17 16:00:56.987  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-03-17 16:00:59.010 ERROR [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:76) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:941) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:919) [eureka-client-1.9.13.jar:1.9.13]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_65]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_65]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:235) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403) [spring-cloud-context-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142) [spring-cloud-context-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1072) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1065) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1060) [spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1029) [spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:978) [spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_65]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_65]
+	at sun.reflect.misc.Trampoline.invoke(Unknown Source) [na:1.8.0_65]
+	at sun.reflect.GeneratedMethodAccessor123.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_65]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_65]
+	at sun.reflect.misc.MethodUtil.invoke(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(Unknown Source) [na:1.8.0_65]
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(Unknown Source) [na:1.8.0_65]
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(Unknown Source) [na:1.8.0_65]
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(Unknown Source) [na:1.8.0_65]
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(Unknown Source) [na:1.8.0_65]
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(Unknown Source) [na:1.8.0_65]
+	at sun.reflect.GeneratedMethodAccessor124.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_65]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_65]
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source) [na:1.8.0_65]
+	at sun.rmi.transport.Transport$1.run(Unknown Source) [na:1.8.0_65]
+	at sun.rmi.transport.Transport$1.run(Unknown Source) [na:1.8.0_65]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_65]
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source) [na:1.8.0_65]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source) [na:1.8.0_65]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source) [na:1.8.0_65]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$256(Unknown Source) [na:1.8.0_65]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_65]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_65]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_65]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_65]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[na:1.8.0_65]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_65]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.10.jar:4.5.10]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 82 common frames omitted
+
+2020-03-17 16:00:59.012  WARN [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-03-17 16:00:59.016 ERROR [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDERSERVICE/ULSRITDESKTOP09.sritindia.com:orderservice:2222 - de-registration failedCannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:941) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:919) [eureka-client-1.9.13.jar:1.9.13]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_65]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_65]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:235) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403) [spring-cloud-context-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142) [spring-cloud-context-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1072) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1065) [spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1060) [spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1029) [spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:978) [spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_65]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_65]
+	at sun.reflect.misc.Trampoline.invoke(Unknown Source) [na:1.8.0_65]
+	at sun.reflect.GeneratedMethodAccessor123.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_65]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_65]
+	at sun.reflect.misc.MethodUtil.invoke(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(Unknown Source) [na:1.8.0_65]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(Unknown Source) [na:1.8.0_65]
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(Unknown Source) [na:1.8.0_65]
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(Unknown Source) [na:1.8.0_65]
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(Unknown Source) [na:1.8.0_65]
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(Unknown Source) [na:1.8.0_65]
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(Unknown Source) [na:1.8.0_65]
+	at sun.reflect.GeneratedMethodAccessor124.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_65]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_65]
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source) [na:1.8.0_65]
+	at sun.rmi.transport.Transport$1.run(Unknown Source) [na:1.8.0_65]
+	at sun.rmi.transport.Transport$1.run(Unknown Source) [na:1.8.0_65]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_65]
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source) [na:1.8.0_65]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source) [na:1.8.0_65]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source) [na:1.8.0_65]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$256(Unknown Source) [na:1.8.0_65]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_65]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_65]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_65]
+
+2020-03-17 16:00:59.033  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-03-17 16:00:59.034  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-17 16:00:59.040  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-17 16:00:59.146  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-17 16:00:59.148  INFO [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-03-17 16:00:59.151  WARN [orderservice,,,] 9768 --- [RMI TCP Connection(172)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [kafka-producer-network-thread | producer-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+ sun.nio.ch.SelectorImpl.select(Unknown Source)
+ org.apache.kafka.common.network.Selector.select(Selector.java:794)
+ org.apache.kafka.common.network.Selector.poll(Selector.java:467)
+ org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:539)
+ org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:335)
+ org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:244)
+ java.lang.Thread.run(Unknown Source)
